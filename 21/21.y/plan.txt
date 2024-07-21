@@ -1,0 +1,30 @@
+Board things:
+
+Display the game board
+Randomly assign the numbered tiles to random positions
+Alter board after each commmand and disply new board
+Check if the board is in the right order (if so user wins)
+
+
+User things:
+
+Get commands from user
+Check that it is a valid command
+Run the command
+
+
+
+board class
+    randomly assign tiles at beginning
+    display board after each move
+    hold position of empty tile
+    take play command and change board state
+    check win condition
+Tile classe
+    Holds integer value of tile
+main function
+    exit game if prompted
+    otherwise pass play command to board
+Namespace UserInput
+    Get User input  
+    chack validity of input
